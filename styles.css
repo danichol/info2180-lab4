@@ -35,7 +35,7 @@ header .container{
     font-weight: bold;
 }
 
-.search .container{
+.search-section .container{
     display: flex;
     background-color: #e8ebec;
     flex-direction: column;
@@ -44,7 +44,7 @@ header .container{
     padding-right: 10%;
 }
 
-.search .btn {
+.search-section .btn {
     align-items: center;
     width: 90px;
     height: 40px;
@@ -63,7 +63,7 @@ form {
     margin-bottom: 35px;
 }
 
-#email{
+#search{
   height: 50px;
   width: 800px;
   padding: 12px;
