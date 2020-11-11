@@ -1,0 +1,90 @@
+/* Add your CSS to this file */
+/* The default font family for the landing page should be -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif and the default font size should be 18px */ 
+
+html{
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 12px;
+    padding:2%;
+}
+
+header h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px; 
+}
+
+header .container{
+    padding: 1%;
+    padding-bottom: 2%;
+    background-color:#3268bd;
+}
+
+
+.search-results .container{
+    display: flex;
+    background-color: #e8ebec;
+    flex-direction: column;
+    padding:2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.search-results h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search .container{
+    display: flex;
+    background-color: #e8ebec;
+    flex-direction: column;
+    padding:2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.search .btn {
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color:#a50000;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}   
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#email{
+  height: 50px;
+  width: 800px;
+  padding: 12px;
+  margin-left: 0%;
+  margin-right: 3px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+
+/* The Footer section should have a background colour of #4A5568
+   and the color of the text should be white */ 
+
+footer {
+    background-color: #b2d8d8;
+    font-size: 10px;
+    font-weight: bold;
+    color:#000000;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
