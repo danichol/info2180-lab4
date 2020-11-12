@@ -17,30 +17,37 @@
     
     <main>
         <section class="search-section">
-            <div class="container">
-                <div class="search-text">
-                    <h2>Search by Full Name or Alias</h2>
-                    <form action="http://localhost/info2180-lab4/superheroes.php" method="post">
-                        <div class="search-bar">
-                            <input type="text" name="search" id="search" placeholder="e.g Captain America or Steve Rogers">
-                        </div>
-                        <button type="searchbutton" class="btn">Search</button>
-                    </form>       
+            <h2>Search by Full Name or Alias</h2>
+            <form action="#" method="post">
+                <div class="search-bar">
+                    <input type="text" name="hero" id="hero" placeholder="e.g Captain America or Steve Rogers">
+                    <button type="submit" class="btn">Search</button>
                 </div>
-            </div>
-        </section>
-
+            </form>      
 
         <section class="search-results">
-            <div class="container">
                 <h2>RESULT</h2> 
-                </div>
-        </section>        
+                <div class = "superhero-list">
+                    <div class ="message"></div>
+                    <div class ="name"></div>
+                    <div class ="alias">
+                        <h3> Alias: </h3>h3>
+                    </div>
+                    <div class ="biography">
+                        <h4> Biography: </h4>
+                    </div>
+                </div>  
+        </section>      
+
     </main>
+
+
     <footer>
         <div class="container">
             <p>Copyright 2020, Daneel Nichol</p>
         </div>
     </footer>
+
+    
 </body>
 </html>
