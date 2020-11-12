@@ -35,7 +35,7 @@ header .container{
     font-weight: bold;
 }
 
-.search-section .container{
+.search-section {
     display: flex;
     background-color: #e8ebec;
     flex-direction: column;
@@ -63,7 +63,7 @@ form {
     margin-bottom: 35px;
 }
 
-#search{
+#hero{
   height: 50px;
   width: 800px;
   padding: 12px;
@@ -75,9 +75,6 @@ form {
   border-radius: 5px;
 
 }
-
-/* The Footer section should have a background colour of #4A5568
-   and the color of the text should be white */ 
 
 footer {
     background-color: #b2d8d8;
